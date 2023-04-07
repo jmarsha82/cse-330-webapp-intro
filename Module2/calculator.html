@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head><title>Calculator</title></head>
+<body>
+<form action="calculate.php" method="GET">
+	<p>
+		<label for="firstnumberinput">First Number:</label>
+		<input type="text" name="firstnumber" id="firstnumberinput" />
+	</p>
+	<p>
+		<label for="secondnumberinput">Second Number:</label>
+		<input type="text" name="lastnumber" id="secondnumberinput" />
+	</p>
+	<p>
+		<strong>Operation:</strong>
+		<input type="radio" name="operation" value="add" id="addinput" checked="checked" /> <label for="addinput">Add</label> &nbsp;
+		<input type="radio" name="operation" value="subtract" id="subtractinput" /> <label for="subtractinput">Subtract</label> &nbsp;
+		<input type="radio" name="operation" value="multiply" id="multiplyinput" /> <label for="multiplyinput">Multiplication</label> &nbsp;
+		<input type="radio" name="operation" value="divide" id="divideinput" /> <label for="divideinput">Division</label> 
+	</p>
+	<p>
+		<input type="submit" value="Send" />
+		<input type="reset" />
+	</p>
+</form>
+</body>
+</html>

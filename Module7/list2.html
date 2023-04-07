@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<body>
+    <h1>Reviews for {{brandName}}</h1>
+    <table class="table table-striped">
+        <tr>
+          <b>
+            <th>Reviewer</th>
+            <th>Comment</th>
+            <th>Rating</th>
+          </b>
+        </tr>
+        <tr ng-repeat="coffee in selectedReviews">
+            <td>{{coffee.reviewer}}</td>
+            <td>{{coffee.comment}}</td>
+            <td>{{coffee.rating}}</td>
+        </tr>
+    </table>
+    <a class="btn btn-primary" href="#/list1">Back</a>
+</body>
+</html>

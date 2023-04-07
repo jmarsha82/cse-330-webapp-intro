@@ -1,0 +1,44 @@
+head{
+	margin: auto auto -1em auto;
+	color:red;
+}
+
+body{
+    color:green;
+	background-color: rgba(255, 0, 255, 0.1);
+	
+}
+
+h1{
+	font-size: 16pt;
+	color: blue;
+	font-size: 40px;
+	text-align: center;
+}
+
+img{
+	width: 104px;
+	height: 142px;
+}
+
+p.one{
+	color:red;
+}
+
+p.two{
+	color:orange;
+}
+
+p{
+	color: black;
+}
+
+div.wish {
+    width: 320px;
+    padding: 10px;
+    right: 0;
+    border: 3px dotted white;
+    margin: auto;
+	text-align: center;
+}
+

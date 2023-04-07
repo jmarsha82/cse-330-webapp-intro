@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+    <h1>All Coffees</h1>
+    <input type="text" class="form-control" placeholder="Search for coffees" ng-model="searchText" />
+    <table  class="table table-striped">
+        <tr>
+          <b>
+            <th>Brand</th>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Reviews</th>
+          </b>
+        </tr>
+        <tr ng-repeat="coffee in coffees | filter:searchText | orderBy: 'name' ">
+            <td>{{coffee.brand}}</td>
+            <td>{{coffee.name}}</td>
+            <td>{{coffee.country}}</td>
+            <td><a class="btn btn-primary" ng-href="#/list2/{{coffee.id}}">View</td>
+        </tr>
+    </table>
+    <script src="list1.js"></script>
+</body>
+</html>
