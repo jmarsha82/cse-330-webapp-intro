@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSE330 Web App Intro</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="course">Washington University in St. Louis</p>
+      <h1>CSE330 Web App Intro</h1>
+      <p class="summary">A browsable archive of web-development coursework, from static HTML exercises through JavaScript widgets, PHP form handling, Python parsing, and Angular routing.</p>
+    </div>
+    <nav aria-label="Repository sections">
+      <a href="#modules">Modules</a>
+      <a href="#quality">Tests and CI</a>
+      <a href="README.md">README</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="quality-strip" id="quality" aria-label="Automation summary">
+      <article>
+        <span>Unit Tests</span>
+        <strong>Jest + Python unittest</strong>
+      </article>
+      <article>
+        <span>Quality Scanning</span>
+        <strong>ESLint SARIF</strong>
+      </article>
+      <article>
+        <span>Security Scanning</span>
+        <strong>CodeQL + Dependency Review</strong>
+      </article>
+    </section>
+
+    <section id="modules" class="module-grid" aria-label="Course modules">
+      <article>
+        <h2>Module 1</h2>
+        <p>Static HTML and CSS practice with a birthday-card page and a DuckDuckGo search form.</p>
+        <a href="Module1/birthday.html">Birthday card</a>
+        <a href="Module1/Duckgo.html">Search form</a>
+      </article>
+      <article>
+        <h2>Module 2</h2>
+        <p>PHP calculator exercise with a form-driven arithmetic workflow and server-rendered result page.</p>
+        <a href="Module2/calculator.html">Calculator form</a>
+      </article>
+      <article>
+        <h2>Module 3</h2>
+        <p>Placeholder module folder retained from the original coursework archive.</p>
+        <a href="Module3/readme.txt">Module note</a>
+      </article>
+      <article>
+        <h2>Module 4</h2>
+        <p>Python parser that reads baseball batting lines, aggregates player stats, and prints batting averages.</p>
+        <a href="Module4/players.py">Parser source</a>
+      </article>
+      <article>
+        <h2>Module 5</h2>
+        <p>Browser JavaScript exercises: calculator, calendar helpers/events, and a weather AJAX example.</p>
+        <a href="Module5/calculator.html">JS calculator</a>
+        <a href="Module5/index.html">Calendar</a>
+        <a href="Module5/weather.html">Weather</a>
+      </article>
+      <article>
+        <h2>Module 6</h2>
+        <p>Node.js introductory servers, including a Hello World HTTP server and a static file server.</p>
+        <a href="Module6/hello.js">Hello server</a>
+        <a href="Module6/static_server.js">Static server</a>
+      </article>
+      <article>
+        <h2>Module 7</h2>
+        <p>AngularJS route, service, and controller exercise using a small coffee review dataset.</p>
+        <a href="Module7/index.html">Angular app</a>
+      </article>
+      <article>
+        <h2>In-Class Assessment</h2>
+        <p>PHP and MySQL matchmaker-style profile exercise with SQL schema, profile submission, and user listing pages.</p>
+        <a href="ICA/create-profile.html">Create profile</a>
+        <a href="ICA/show-users.php">Show users</a>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
