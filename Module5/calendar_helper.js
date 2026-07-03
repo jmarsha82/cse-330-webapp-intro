@@ -133,3 +133,10 @@ function Month(year, month) {
 		return weeks;
 	};
 }
+
+if (typeof module !== "undefined") {
+	module.exports = {
+		Week: Week,
+		Month: Month
+	};
+}
