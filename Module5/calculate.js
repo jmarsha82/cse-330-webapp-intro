@@ -6,8 +6,8 @@ function calculateResult(first, second, operation) {
 
     var firstNumber = Number(first);
     var secondNumber = Number(second);
-    var answer = 0;
-    var connector = "";
+    var answer;
+    var connector;
 
     switch (operation) {
         case "add":
